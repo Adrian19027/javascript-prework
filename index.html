@@ -3,22 +3,28 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Kamień, papier, nożyce</title>
+	<link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Inconsolata:wght@200..900&family=Signika:wght@300..700&display=swap"
+		rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<nav class="header">
 		<h2>Zagraj w naszą grę: kamień, papier, nożyce!!!</h2>
-		<h4>Powodzenia</h4>
+		<h4>Powodzenia!!!</h4>
 	</nav>
 	<div class="container">
-		<div id="buttons">
-			<button id="button-test">Test button</button>
-			<button id="button-rock">Kamień</button>
-			<button id="button-paper">Papier</button>
-			<button id="button-scissors">Nożyce</button>
+		<div class="instructions">
+			<h4>Instrukcja:</h4>
+			<p>Kamień bije nożyce, papier bije kamień, a nożyce biją papier.</p>
 		</div>
-		<div id="result">Wynik: 0 - 0</div>
+		<div id="buttons">
+			<button class="btn" role="button" id="button-test">Test button</button>
+			<button class="btn" role="button" id="button-rock">Kamień</button>
+			<button class="btn" role="button" id="button-paper">Papier</button>
+			<button class="btn" role="button" id="button-scissors">Nożyce</button>
+		</div>
 		<div id="messages"></div>
+		<div id="result">Wynik: 0 - 0</div>
 	</div>
 	<script src="js/functions.js"></script>
 	<script src="js/script.js"></script>

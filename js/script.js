@@ -22,6 +22,15 @@ function buttonClicked(argButtonName) {
     return 'kamień';
   }
 }
+
+    function celebrate() {
+    console.log('Celebration triggered!');
+    confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: { y: 0.6 }
+    });
+    }
     
 function displayResult(argPlayerMove, argComputerMove) {
         console.log('wywołano funkcję displayResult z argumentami: ' + argPlayerMove + ', ' + argComputerMove);
