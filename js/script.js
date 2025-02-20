@@ -20,6 +20,7 @@ if (playerInput == '1') {
 } else if (playerInput == '3') {
     playerMove = 'nożyce';
 } else {
+    printMessage('Błędny wybór! Przyjmuję że wybrałeś kamień');
     playerMove = 'kamień';
 }
-printMessage('Błedny wybór twój ruch: ' + playerMove);
+printMessage('Twój ruch: ' + playerMove);
